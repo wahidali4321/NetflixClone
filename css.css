@@ -13,4 +13,16 @@ ul{
 }
 ul li{
     float: left;
+    list-style-type: none;
+}
+ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} ;
+ul li a:hover{
+    background-color: white;
+    color: red;
 }
