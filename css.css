@@ -1,19 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body{
     background-color: black;
     color: white;
     background-image: url("images/TheNightagent.jpg");
+    
 
 
-} ;
+} 
 ul{
     list-style-type: none;
-    margin: 0%;
+    margin: 0;
     padding: 0%;
     overflow: hidden;
+    top: 0%;
+    position: fixed;
+    width: 100%;
 }
 ul li{
     float: left;
     list-style-type: none;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
 }
 ul li a{
     display: block;
@@ -21,6 +33,8 @@ ul li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0;
+
 } 
 ul li a:hover{
     background-color: white;
