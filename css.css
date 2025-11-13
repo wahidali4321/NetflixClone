@@ -75,3 +75,12 @@ ul li a:hover{
     background-color: #111;
     color: white;
 }
+.notification a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+.notification a:hover{
+    color: red;
+}
