@@ -1,142 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-body{
-    background-color: black;
-    color: white;
-    background-image: url("images/TheNightagent.jpg");
-    
-
-
-} 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0%;
-    overflow: hidden;
-    top: 0%;
-    position: fixed;
-    width: 100%;
+header{
+    display: flex;
+    background-color: green;
 }
-ul li{
-    float: left;
-    list-style-type: none;
-    background-color: black;
-    padding: 10px;
-    margin: 0;
-}
-ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin: 0;
-
-} 
-ul li a:hover{
-    background-color: white;
-    color: red;
-}
-.netflix a{
-    color: red;
-    font-weight: bold;
-    font-family: 'Arial black' , sans-serif;
-    background-color: black;
-    border-radius: 5px;
-    padding: 8px 12px;
-    
-}
-#searche {
-    background-color: black;
-    color: lightgrey;
+.header-container{
     display: flex;
     align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #131921;
 }
-#searche label{
-    display: none;
+.search-container{
+    flex: 1;
+    max-width: 600px;
+    max-height: fit-content;
+    
 }
-#search{
-    padding: 8px 12px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    width: 200px;
-    font-size: 14px;
-
-}
-#search::placeholder{
-    color: gray;
-}
-#search:focus{
-    border: 2px solid red;
-    background-color: #111;
-    color: white;
-}
-.notification a{
-    color: white;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 10px 16px;
-}
-.notification a:hover{
-    color: red;
-}
-/* Dropdown container */
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Button styling */
-  .dropbtn {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
+.search-input{
+    flex: 1;
+    padding: 10px 20px;
     font-size: 16px;
     border: none;
+    border: 4px 0 0 4px;
+    width: 400px ;
+    height: auto;
+    
+    
+
+}
+.search-button {
+    padding: 10px 15px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
     cursor: pointer;
-  }
-  
-  .dropbtn:hover {
-    color: red;
-  }
-  
-  /* Dropdown content box */
-  .dropdown-content {
-    display: none; /* hidden by default */
-    position: absolute;
-    background-color: #111;
-    min-width: 180px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 6px;
-    z-index: 1;
-  
-    /* Enhancement: padding and smooth animation */
-    padding: 10px 0;
-    transition: all 0.3s ease;
-  }
-  
-  /* Each dropdown link */
-  .dropdown-content a {
-    color: white;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 15px;
-    transition: background 0.3s, padding-left 0.3s;
-  }
-  
-  /* Hover effect for each link */
-  .dropdown-content a:hover {
-    background-color: red;
-    padding-left: 22px; /* smooth sliding effect */
-  }
-  
-  /* Show dropdown when hovering */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+    font-size: 16px;
+    
+}
+
+.search-button:hover {
+    background-color: #f3a847;
+}
+.sign-in{
+    background-color: green;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+}
